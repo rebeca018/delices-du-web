@@ -1,0 +1,15 @@
+{
+  "name": "delices-du-web",
+  "version": "1.0.0",
+  "description": "Délices du Web é seu espaço para descobrir receitas incríveis, de pratos caseiros a sabores internacionais. Prático, gostoso e fácil de acompanhar!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "author": "Rebeca e Thaissa",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
