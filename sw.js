@@ -1,6 +1,6 @@
 let cacheName = "my-horario-pwa";
-let filesToCache = ["/", "/index.html",
-                    "/css/style.css", "/js/main.js"];
+let filesToCache = ["/", "/index.html", "/massas.html", "/doces.html", "/carnes.html",
+                    "/css/style.css", "/css/massas.css", "/css/doces.css", "/css/carnes.css", "/js/main.js"];
 
 /* inicializando a service worker e fazendo o download do conteúdo da aplicação */
 self.addEventListener("install", (e) => {
