@@ -74,18 +74,96 @@ header {
     flex-direction: column;
     height: 600px;
     width: 100vw; 
-    background-color: #fad889;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    background-color: #fff;
+    
 }
  
 .title {
     font-family: sans-serif;
-    color: #fff;
+    color: #1d1d1d;
     font-size: 40px;
     margin: 10px 0;
 }
+
+.book_card {
+    text-align: left;
+    background-color: #ae92a3;
+    border: 5px solid #ae92a3;
+    overflow: hidden;
+    min-width: 300px;
+    max-width: 1500px;
+    min-height: 100px;
+    max-height: 1000px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; 
+}
+
+
+.img{
+    margin-top: 80px;
+    height: 400px;
+    width: 400px;
+}
+
+.text{
+    height: 340px;
+    width: 350px;
+    display: table-cell;
+    vertical-align: middle;
+}
+  
+.book_card_h4{
+    padding: 5px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;    
+    text-overflow: ellipsis;
+    margin-top: 15px;
+}
+  
+  
+.book_card_p {
+    padding: 5px;
+    margin: 0;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;    
+    text-overflow: ellipsis;
+}
+
+.book_card_img{
+    height: 250px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
     display: flex;
@@ -95,7 +173,7 @@ footer {
     align-items: center;            
     padding: 10px 20px;             
     background-color: #fff;      
-    border-top: 1px solid #ffd675;   
+    border-top: 1px solid #1c1c1c;   
     height: 60px;  
 }
 
