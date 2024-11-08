@@ -59,29 +59,27 @@ header {
     margin-left: auto;
     overflow: hidden;
     border-radius: 5px;
+    gap: 20px;
 }
 
-.pesquisa input {
-    padding: 10px 15px; 
-    font-size: 16px; 
-    border: 1px solid #6d6d6d; 
-    border-radius: 5px 0 0 5px; 
-    outline: none; 
+.pesquisa a {
+    color: #222121;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-.button-form{
-    padding: 10px 15px; 
-    background-color: #1d1d1d; 
-    border: none; 
-    border-radius: 0 5px 5px 0; 
-    cursor: pointer;
-    color:#fff;
+.massa:hover{
+    color: #e28a56;
 }
 
-.img-form{
-    width: 16px;
-    height: 16px;
+.doce:hover{
+    color: #df5656;
 }
+
+.carne:hover{
+    color: #2E7D32;
+}
+
 
 .container {
     display: flex;

@@ -54,6 +54,19 @@ header {
     font-size: 18px;
 }
 
+.massa:hover{
+    color: #e28a56;
+}
+
+.doce:hover{
+    color: #df5656;
+}
+
+.carne:hover{
+    color: #2E7D32;
+}
+
+
 .container {
     display: flex;
     flex-direction: column;
