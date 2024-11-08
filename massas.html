@@ -27,6 +27,26 @@
 
     <div class="container">
         <h1 class="title">Massas</h1>
+        <div class="book_card">
+            <div class="img">
+                <Image
+                    width={107}
+                    height={154}
+                    src="/images/image1.png"
+                    class="book_card_img"
+                />
+            </div>
+            
+            <div class="text">
+                <h3 class="book_card_h4">{data.titulo}</h3>
+                <p class="book_card_p">Autor: {data.autor}</p>
+                <p class="book_card_p">Editora: {data.editora}</p>
+                <p class="book_card_p">Gênero: {data.genero}</p>
+                <p class="book_card_p">Páginas: {data.paginas}</p>
+                <p class="book_card_p">R$ {data.preco}</p>
+            </div>
+        </div>
+
     </div>
 
     <footer>
