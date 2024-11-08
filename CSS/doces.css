@@ -1,3 +1,17 @@
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: #f083b2;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #ecc1d4;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #f083b2;  /* creates padding around scroll thumb */
+}
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -72,41 +86,171 @@ header {
 .container {
     display: flex;
     flex-direction: column;
-    height: 600px;
-    width: 100vw; 
-    background-color: #fad889;
+    background-color: #fff;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    padding: 20px; 
 }
- 
+
+.h1{
+    color: #E06666;
+    font-size: 40px;
+}
+
 .title {
     font-family: sans-serif;
-    color: #fff;
+    color: #1d1d1d;
     font-size: 40px;
     margin: 10px 0;
 }
+
+.card::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+.card::-webkit-scrollbar-track {
+    background: #EBA2C2;        /* color of the tracking area */
+}
+  
+.card::-webkit-scrollbar-thumb {
+    background-color: #ecc1d4;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #EBA2C2;  /* creates padding around scroll thumb */
+}
+
+.card {
+    text-align: left;
+    background-color: #ecc1d4;
+    border: 5px solid #EBA2C2;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: row; 
+    width: 100%;
+    max-width: 1200px; 
+    height: 700px; 
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.img,
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    flex: 1; 
+    gap: 15px; 
+}
+
+.card img {
+    width: 100%;
+    max-width: 356px;
+    max-height: 442px; 
+    height: auto;
+    margin: 250px auto 20px;
+    border-radius: 10px;
+}
+
+.tempoP p {
+    margin: 5px 0; 
+    font-size: 16px; 
+    line-height: 1.4;
+    color: #3e3e3e; 
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 15px;
+    max-height: 100%; 
+    padding: 0 15px;
+}
+
+.card_h1{
+    color: #E06666;
+}
+
+.card_h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #e37d7d;
+}
+
+.lista{
+    color: #3e3e3e;
+}
+
+.card_p {
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.card ul {
+    padding-left: 20px;
+}
+
+.card ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .card {
+        grid-template-columns: 1fr;
+    }
+
+    .text {
+        padding-top: 10px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .card_h4 {
+        font-size: 20px;
+    }
+
+    .card_p {
+        font-size: 14px;
+    }
+
+    .card img {
+        max-width: 200px;
+    }
+}
+
 
 footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between; 
-    align-items: center;            
-    padding: 10px 20px;             
-    background-color: #fff;      
-    border-top: 1px solid #ffd675;   
-    height: 60px;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-top: 1px solid #1c1c1c;
+    height: 60px;
 }
 
 footer div {
-    flex: 1;                        
+    flex: 1;
 }
 
 footer div p {
-    margin: 0;                      
-    font-size: 16px;                
-    color: #222121;                   
+    margin: 0;
+    font-size: 16px;
+    color: #222121;
 }
 
 .e {
@@ -117,6 +261,6 @@ footer div p {
 .d {
     display: flex;
     flex-direction: row;
-    align-items:center;
+    align-items: center;
     justify-content: flex-end;
 }
