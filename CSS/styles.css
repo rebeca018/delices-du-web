@@ -72,7 +72,7 @@ header {
 .container {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 800px;
     width: 100vw; 
     background-color: #fad889;
     justify-content: center;
