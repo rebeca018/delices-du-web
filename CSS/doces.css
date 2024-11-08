@@ -1,15 +1,15 @@
 body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 12px;               
 }
   
 body::-webkit-scrollbar-track {
-    background: #f083b2;        /* color of the tracking area */
+    background: #f083b2;        
 }
   
 body::-webkit-scrollbar-thumb {
-    background-color: #ecc1d4;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid #f083b2;  /* creates padding around scroll thumb */
+    background-color: #ecc1d4;    
+    border-radius: 20px;       
+    border: 3px solid #f083b2;  
 }
 
 body {
@@ -105,17 +105,17 @@ header {
 }
 
 .card::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 12px;               
 }
   
 .card::-webkit-scrollbar-track {
-    background: #EBA2C2;        /* color of the tracking area */
+    background: #EBA2C2;        
 }
   
 .card::-webkit-scrollbar-thumb {
-    background-color: #ecc1d4;    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid #EBA2C2;  /* creates padding around scroll thumb */
+    background-color: #ecc1d4;    
+    border-radius: 20px;       
+    border: 3px solid #EBA2C2;  
 }
 
 .card {

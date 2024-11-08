@@ -1,3 +1,17 @@
+body::-webkit-scrollbar {
+    width: 12px;               
+}
+  
+body::-webkit-scrollbar-track {
+    background: #f79651;        
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #fbbe9a;    
+    border-radius: 20px;       
+    border: 3px solid #f79651;  
+}
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -72,11 +86,15 @@ header {
 .container {
     display: flex;
     flex-direction: column;
-    width: 100vw;
     background-color: #fff;
     justify-content: center;
     align-items: center;
     padding: 20px; 
+}
+
+.h1{
+    color: #e28a56;
+    font-size: 40px;
 }
 
 .title {
@@ -89,7 +107,7 @@ header {
 .card {
     text-align: left;
     background-color: #fdc9ab;
-    border: 5px solid #fbbe9a;
+    border: 5px solid #f79651;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
@@ -103,6 +121,20 @@ header {
     padding: 20px;
     box-sizing: border-box;
     overflow-y: auto;
+}
+
+.card::-webkit-scrollbar {
+    width: 12px;               
+}
+  
+.card::-webkit-scrollbar-track {
+    background: #f79651;        
+}
+  
+.card::-webkit-scrollbar-thumb {
+    background-color: #fbbe9a;    
+    border-radius: 20px;       
+    border: 3px solid #f79651;  
 }
 
 .img,
