@@ -1,6 +1,7 @@
-let cacheName = "my-horario-pwa";
-let filesToCache = ["/", "/index.html", "/massas.html", "/doces.html", "/carnes.html",
-                    "/css/style.css", "/css/massas.css", "/css/doces.css", "/css/carnes.css", "/js/main.js"];
+let cacheName = "delices-du-web";
+let filesToCache = ["/", "/index.html", "/massas", "/doces", "/carnes", "/images","/manifest.json",
+                    "/CSS/styles.css", "/CSS/massas.css", "/CSS/doces.css", "/CSS/carnes.css", "/js/main.js",
+                    "/images/icon.png"];
 
 /* inicializando a service worker e fazendo o download do conteúdo da aplicação */
 self.addEventListener("install", (e) => {
