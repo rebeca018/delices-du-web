@@ -1,19 +1,79 @@
 body {
     font-family: sans-serif;
+    margin: 0;
 }
 
 html, .fullscreen {
     display: flex;
+    flex-direction: column;
     height: 100%;
     margin: 0;
     padding: 0;
     width: 100%;
 }
 
-.container {
-   margin: auto;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    color: #222121;
+    height: 70px;
 }
 
-.title {
-    font-size: 3rem;
+
+.logo img {
+    width: 40px;
+    margin-right: 20px;
 }
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.links a {
+    color: #222121;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.pesquisa input {
+    padding: 10px 15px; 
+    font-size: 16px; 
+    border: 1px solid #6d6d6d; 
+    border-radius: 5px 0 0 5px; 
+    outline: none; 
+}
+
+.button-form{
+    padding: 10px 15px; 
+    background-color: #1d1d1d; 
+    border: none; 
+    border-radius: 0 5px 5px 0; 
+    cursor: pointer;
+    color:#fff;
+}
+
+.img-form{
+    width: 16px;
+    height: 16px;
+}
+
+.container {
+    margin: auto;
+ }
+ 
+ .title {
+     font-size: 3rem;
+ }
